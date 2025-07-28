@@ -9,3 +9,30 @@
   - Custome constructor with new Keyword
 - Multiple Dispatch => functions with same name (called methods of a function) but different arguments
 - Function Dispatch => Apply function to each member of a collection (like for each)
+- To type a unicode character or emoji start with a '\' and name
+  - e.g. \omega => omega symbol
+- Variable names can't start with a number
+- function arguments can be
+  - default
+  - positional
+  - keyword => after ';'
+- In Pluto.jl, get live documentation when a word is highlighted
+- info functions
+  - methodswith
+  - typeof
+  - supertype, supertypes
+  - subtypes
+  - isa => works also as a binary op
+  - Base.summarysize => type size
+  - isabstract
+- Julia REPL
+  - ? => help mode
+  - ] => Package mode
+  - ; => Shell mode
+  - Backspace => Exit a mode
+- Accessing elements by columns of a Matrix is faster than accessing by rows as Matrix is stored as array in memory
+- naming conventions
+  - CamelCase => Packages, Modules, Types
+  - contineouslowercase/ snake_case => functions, variables
+- Datasets
+  - from R => package RDatasets
