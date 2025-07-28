@@ -4,5 +4,6 @@
 - Projects
   - Number guess
   - wc clone
+  - minigrep
 
 [LRNXINY]: learnxinyminutes.com
