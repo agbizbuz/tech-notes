@@ -1,0 +1,11 @@
+# Quick Notes
+- Strings have double or triple quotes
+- Data Structs
+  - Dictionary
+  - Tuple => Immutable sequence
+  - Array => Mutable sequence
+- Structs
+  - Immutable by default
+  - Custome constructor with new Keyword
+- Multiple Dispatch => functions with same name (called methods of a function) but different arguments
+- Function Dispatch => Apply function to each member of a collection (like for each)
