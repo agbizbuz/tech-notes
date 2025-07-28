@@ -6,4 +6,4 @@
   - wc clone
   - minigrep
 
-[LRNXINY]: learnxinyminutes.com
+[LRNXINY]: https://learnxinyminutes.com
