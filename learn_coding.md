@@ -1,6 +1,6 @@
 # Learn Coding
 
-- quick syntax => [learnxinyminutes][LRNXINY]
+- quick syntax u> [learnxinyminutes][LRNXINY]
 - Projects
   - Number guess
   - wc clone
