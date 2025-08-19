@@ -3,7 +3,10 @@
 ## UV
 One tool to manage all Python development
 
-### UV Basics
+## Python Version Management
+
+
+### Project Management
 Initialise a project from scratch or takeover the current project
 ```sh
 # initialization
