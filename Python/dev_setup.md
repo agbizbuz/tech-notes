@@ -4,7 +4,12 @@
 One tool to manage all Python development
 
 ## Python Version Management
+```sh
+uv python install # install latest python version
+uv python install 3.11 3.12 # install specific versions
 
+uv python list # view installed python versions
+```
 
 ### Project Management
 Initialise a project from scratch or takeover the current project
