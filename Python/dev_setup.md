@@ -5,9 +5,13 @@ One tool to manage all Python development
 
 ### UV Basics
 Initialise a project from scratch or takeover the current project
-```lang=sh
+```sh
+# initialization
 uv init <project-name> # create from scratch including directory
 uv init # takeover existing project - make sure no pyproject.toml exists
+
+# dependency management
+$ uv add requests # add a dependency
 ```
 
 
