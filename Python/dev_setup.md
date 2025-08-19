@@ -12,8 +12,9 @@ uv init # takeover existing project - make sure no pyproject.toml exists
 
 # dependency management
 uv add -r requirements.txt # migrate requirements
-uv add requests # add a dependency
-uv add --upgrade requests
+uv add <package_name> # add a dependency
+uv add --upgrade <package_name>
+
 ```
 
 
