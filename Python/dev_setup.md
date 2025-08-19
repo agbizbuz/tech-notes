@@ -30,8 +30,7 @@ uv publish --index testpypi --token <your_token_here>
 
 ### Tools
 ```sh
-# run tool without installing
-uvx ruff
+uvx ruff # run tool without installing
 uv tool install ruff # install tool
 ```
 
