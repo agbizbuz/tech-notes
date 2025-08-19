@@ -3,11 +3,6 @@
 ## Basic setup for dotfiles management
 Manage dotfiles with [Stow][GNUSTOW], and sync with github
 
-## Quick reference
-Hidden Files
-AstroNvim - <leader>fF
-television (files, dirs) - Ctrl + s
-
 ## CLI Tools
 1. Editor - AstroNvim
 2. fuzzy finders - fzf, fd, television
