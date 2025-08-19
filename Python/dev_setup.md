@@ -28,6 +28,8 @@ uv build
 uv publish --index testpypi --token <your_token_here>
 ```
 
+### Tools
+
 
 ## Resources
 1. [UV Tutorial](https://realpython.com/python-uv/)
