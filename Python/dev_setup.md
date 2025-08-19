@@ -15,6 +15,8 @@ uv add -r requirements.txt # migrate requirements
 uv add <package_name>
 uv add --upgrade <package_name>
 uv remove <package_name>
+
+$ uv add --dev <package_name> # development dependency
 ```
 
 
