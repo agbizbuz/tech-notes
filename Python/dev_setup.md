@@ -11,7 +11,8 @@ uv init <project-name> # create from scratch including directory
 uv init # takeover existing project - make sure no pyproject.toml exists
 
 # dependency management
-$ uv add requests # add a dependency
+uv add requests # add a dependency
+uv add --upgrade requests
 ```
 
 
