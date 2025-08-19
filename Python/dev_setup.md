@@ -20,7 +20,8 @@ uv add --dev <package_name> # development dependency
 uv pip list # list installed dependencies
 
 # explicit locking and syncing
-
+uv lock
+uv sync
 ```
 
 
