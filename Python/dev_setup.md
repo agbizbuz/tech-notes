@@ -30,6 +30,7 @@ uv pip list # list installed dependencies
 # explicit locking and syncing
 uv lock
 uv sync
+uv lock --check # check if lockfile is up-to-date
 
 # building and publishing
 uv build
