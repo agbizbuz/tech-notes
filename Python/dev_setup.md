@@ -3,7 +3,7 @@
 ## UV
 One tool to manage all Python development
 
-## Python Version Management
+### Python Version Management
 ```sh
 uv python install # install latest python version
 uv python install 3.11 3.12 # install specific versions
