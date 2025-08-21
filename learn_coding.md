@@ -1,6 +1,6 @@
 # Learn Coding
 
-- quick syntax u> [learnxinyminutes][LRNXINY]
+- quick syntax -> [learnxinyminutes][LRNXINY]
 - Projects
   - Number guess
   - word guess
