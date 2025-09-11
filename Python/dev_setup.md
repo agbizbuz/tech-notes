@@ -17,8 +17,10 @@ Initialise a project from scratch or takeover the current project
 # initialization
 uv init <project-name> # create from scratch including directory
 uv init # takeover existing project - make sure no pyproject.toml exists
+```
 
-# dependency management
+### Dependency Management
+```sh
 uv add -r requirements.txt # migrate requirements
 uv add <package_name>
 uv add --upgrade <package_name>
@@ -31,8 +33,9 @@ uv pip list # list installed dependencies
 uv lock
 uv sync
 uv lock --check # check if lockfile is up-to-date
-
-# building and publishing
+```
+### Building and Publishing
+```sh
 uv build
 uv publish --index testpypi --token <your_token_here>
 ```
