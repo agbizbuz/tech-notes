@@ -1,14 +1,14 @@
 # Quick Notes
 - Strings have double or triple quotes
-- Data Structs
+- Data Structures
   - Dictionary
   - Tuple => Immutable sequence
   - Array => Mutable sequence
 - Structs
   - Immutable by default
-  - Custome constructor with new Keyword
+  - Custom constructor with new Keyword
 - Multiple Dispatch => functions with same name (called methods of a function) but different arguments
-- Function Dispatch => Apply function to each member of a collection (like for each)
+- Function Broadcast => Apply function to each member of a collection (like for each)
 - To type a unicode character or emoji start with a '\' and name
   - e.g. \omega => omega symbol
 - Variable names can't start with a number
@@ -17,7 +17,7 @@
   - positional
   - keyword => after ';'
 - In Pluto.jl, get live documentation when a word is highlighted
-- info functions
+- Info functions
   - methodswith
   - typeof
   - supertype, supertypes
@@ -31,7 +31,7 @@
   - ; => Shell mode
   - Backspace => Exit a mode
 - Accessing elements by columns of a Matrix is faster than accessing by rows as Matrix is stored as array in memory
-- naming conventions
+- Naming conventions
   - CamelCase => Packages, Modules, Types
   - contineouslowercase/ snake_case => functions, variables
 - Datasets
