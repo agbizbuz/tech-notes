@@ -1,4 +1,5 @@
 # Quick Notes
+## Data Types
 - Strings have double or triple quotes
 - Data Structures
   - Dictionary
@@ -7,16 +8,14 @@
 - Structs
   - Immutable by default
   - Custom constructor with new Keyword
-- Multiple Dispatch => functions with same name (called methods of a function) but different arguments
-- Function Broadcast => Apply function to each member of a collection (like for each)
-- To type a unicode character or emoji start with a '\' and name
-  - e.g. \omega => omega symbol
-- Variable names can't start with a number
+- Accessing elements by columns of a Matrix is faster than accessing by rows as Matrix is stored as array in memory
+## Functions
 - function arguments can be
   - default
   - positional
   - keyword => after ';'
-- In Pluto.jl, get live documentation when a word is highlighted
+- Function Broadcast => Apply function to each member of a collection (like for each)
+- Multiple Dispatch => functions with same name (called methods of a function) but different arguments
 - Info functions
   - methodswith
   - typeof
@@ -25,14 +24,19 @@
   - isa => works also as a binary op
   - Base.summarysize => type size
   - isabstract
-- Julia REPL
+## Editing Environment
+### REPL
   - ? => help mode
   - ] => Package mode
   - ; => Shell mode
   - Backspace => Exit a mode
-- Accessing elements by columns of a Matrix is faster than accessing by rows as Matrix is stored as array in memory
-- Naming conventions
+### Misc
+- In Pluto.jl, get live documentation when a word is highlighted
+- To type a unicode character or emoji start with a '\' and name
+  - e.g. \omega => Ω (omega symbol)
+## Naming conventions
   - CamelCase => Packages, Modules, Types
   - contineouslowercase/ snake_case => functions, variables
-- Datasets
+  - Variable names can't start with a number
+## Datasets
   - from R => package RDatasets
