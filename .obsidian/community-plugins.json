@@ -5,5 +5,8 @@
   "obsidian-icon-folder",
   "nldates-obsidian",
   "omnisearch",
-  "obsidian-tasks-plugin"
+  "obsidian-tasks-plugin",
+  "dataview",
+  "mermaid-tools",
+  "obsidian-relative-line-numbers"
 ]
