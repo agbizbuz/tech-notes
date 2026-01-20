@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "julia_lang/resources.md",
+                "file": "julia_lang/notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "resources"
+              "title": "notes"
             }
           }
         ]
@@ -195,6 +195,8 @@
   },
   "active": "1d1cd8d71e42c46c",
   "lastOpenFiles": [
+    "julia_lang/learning.md",
+    "julia_lang/resources.md",
     "julia_lang/README.md",
     "todo.md",
     "Tasks.md",
@@ -205,7 +207,6 @@
     "learn_coding.md",
     "tips_trics_ref.md",
     "Untitled.base",
-    "julia_lang/learning.md",
     "julia_lang/dev_setup.md"
   ]
 }

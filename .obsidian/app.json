@@ -1,4 +1,5 @@
 {
   "defaultViewMode": "preview",
-  "showLineNumber": true
+  "showLineNumber": true,
+  "vimMode": false
 }
