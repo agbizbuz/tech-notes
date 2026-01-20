@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tasks.md",
-                "mode": "preview",
+                "file": "julia_lang/resources.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tasks"
+              "title": "resources"
             }
           }
         ]
@@ -195,11 +195,12 @@
   },
   "active": "1d1cd8d71e42c46c",
   "lastOpenFiles": [
+    "julia_lang/README.md",
+    "todo.md",
+    "Tasks.md",
     "Tools/VS Code.md",
     "Tools",
     "dev_setup.md",
-    "todo.md",
-    "Tasks.md",
     "inbox.md",
     "learn_coding.md",
     "tips_trics_ref.md",
