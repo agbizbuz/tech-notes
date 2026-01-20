@@ -3,5 +3,7 @@
   "monospaceFontFamily": "Source Code Pro",
   "textFontFamily": "Source Code Pro",
   "baseFontSize": 18,
-  "baseFontSizeAction": true
+  "baseFontSizeAction": true,
+  "cssTheme": "Catppuccin",
+  "theme": "obsidian"
 }
