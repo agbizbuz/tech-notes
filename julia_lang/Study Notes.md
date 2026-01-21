@@ -1,4 +1,4 @@
-# Quick Notes
+# Study Notes
 ## Data Types
 - Strings have double or triple quotes
 - Data Structures
