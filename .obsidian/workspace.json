@@ -182,6 +182,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "mermaid-tools:Open Mermaid Toolbar": false,
       "obsidian-git:Open Git source control": false,
       "omnisearch:Omnisearch": false,
       "switcher:Open quick switcher": false,
