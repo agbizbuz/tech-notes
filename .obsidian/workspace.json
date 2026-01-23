@@ -13,15 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "julia_lang/Study Notes.md",
+                "file": "julia_lang/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Study Notes"
+              "title": "README"
+            }
+          },
+          {
+            "id": "de1010b892919d13",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.5"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.5"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -194,12 +207,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "1d1cd8d71e42c46c",
+  "active": "de1010b892919d13",
   "lastOpenFiles": [
-    "julia_lang/Useful Packages, Modules and Data.md",
-    "julia_lang/Study Notes.md",
+    "julia_lang/packages.md",
     "julia_lang/learning.md",
     "julia_lang/resources.md",
+    "julia_lang/thingstolearn.md",
+    "julia_lang/Study Notes.md",
     "julia_lang/README.md",
     "todo.md",
     "Tasks.md",

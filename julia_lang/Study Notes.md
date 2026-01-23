@@ -38,9 +38,6 @@
   - CamelCase => Packages, Modules, Types
   - contineouslowercase/ snake_case => functions, variables
   - Variable names can't start with a number
-## Datasets
-  - from R => package RDatasets
-  - From the book "Using Julia for Introductory Econometrics" => package WooldridgeDatasets 
 ## Packages and Modules
 - `include` brings the whole file into current file
 - `using` brings all the exported names in the current file
