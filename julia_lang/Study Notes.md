@@ -24,6 +24,19 @@
   - isa => works also as a binary op
   - Base.summarysize => type size
   - isabstract
+
+## Scope
+- Use `let` to create a local scope, this helps flow control blocks to access outer variables
+- `begin` and `if` blocks don´t introduce new scopes
+- The constructs introducing scope blocks are:
+
+| Construct                                                                                                                                                                                                                                                                                                                                                | Scope Type Introduced | Scope Types Able to Contain Construct |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------- | ------------------------------------- |
+| [`module`](https://docs.julialang.org/en/v1/base/base/#module), [`baremodule`](https://docs.julialang.org/en/v1/base/base/#baremodule)                                                                                                                                                                                                                   | global                | global                                |
+| [`struct`](https://docs.julialang.org/en/v1/base/base/#struct)                                                                                                                                                                                                                                                                                           | local (hard)          | global                                |
+| [`macro`](https://docs.julialang.org/en/v1/base/base/#macro)                                                                                                                                                                                                                                                                                             | local (hard)          | global                                |
+| [`for`](https://docs.julialang.org/en/v1/base/base/#for), [`while`](https://docs.julialang.org/en/v1/base/base/#while), [`try`](https://docs.julialang.org/en/v1/base/base/#try)                                                                                                                                                                         | local (soft)          | global, local                         |
+| [`function`](https://docs.julialang.org/en/v1/base/base/#function), [`do`](https://docs.julialang.org/en/v1/base/base/#do), [`let`](https://docs.julialang.org/en/v1/base/base/#let), [comprehensions](https://docs.julialang.org/en/v1/manual/arrays/#man-comprehensions), [generators](https://docs.julialang.org/en/v1/manual/arrays/#man-generators) | local (hard)          | global, local                         |
 ## Editing Environment
 ### REPL
   - ? => help mode
