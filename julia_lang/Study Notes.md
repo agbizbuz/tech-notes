@@ -28,6 +28,8 @@
 ## Scope
 - Use `let` to create a local scope, this helps flow control blocks to access outer variables
 - `begin` and `if` blocks don´t introduce new scopes
+- **Hard scope** refers to local scopes created by constructs like functions and macros, where variables are not accessible outside their defined block. 
+- **Soft scope**, on the other hand, allows access to variables from the outer scope, but can lead to confusion, especially with global variables.
 - The constructs introducing scope blocks are:
 
 | Construct                                                                                                                                                                                                                                                                                                                                                | Scope Type Introduced | Scope Types Able to Contain Construct |
