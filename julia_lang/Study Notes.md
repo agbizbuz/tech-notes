@@ -57,3 +57,5 @@
 - `include` brings the whole file into current file
 - `using` brings all the exported names in the current file
 - `import` or `import as` brings qualified names in the current file
+- **module** is a way to organize code into namespace
+- **package** is a way to distribute/re-use a set of functionality (can contain multiple modules)
