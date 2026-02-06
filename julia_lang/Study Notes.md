@@ -59,7 +59,9 @@
 - `import` or `import as` brings qualified names in the current file
 - **module** is a way to organize code into namespace
 - **package** is a way to distribute/re-use a set of functionality (can contain multiple modules)
+- To generate the bare minimum files for a new package, use `pkg> generate`.
 ## Environments a.k.a Pkg.jl
 - Pkg (or package mode) provides environments for using different packages/versions for each project
 - Environments are stackable, e.g. Project specific and development environment
-- If different packages use same versions of a package, it is downloaded only once on the hard drive and hence adding lot of packages in the default (Main) environment is not required
+- If different packages use same versions of a package, it is downloaded only once on the hard drive and hence adding lot of packages in the default (Main) environment is not required.
+- Shared environments have a `@` before their name in the Pkg REPL prompt
