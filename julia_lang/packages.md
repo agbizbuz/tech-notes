@@ -6,6 +6,7 @@
 ## Third Party
 - Statistics
 - FreqTables
+- SciML
 
 ## Datasets
   - from R => package RDatasets
