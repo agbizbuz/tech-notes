@@ -65,3 +65,6 @@
 - Environments are stackable, e.g. Project specific and development environment
 - If different packages use same versions of a package, it is downloaded only once on the hard drive and hence adding lot of packages in the default (Main) environment is not required.
 - Shared environments have a `@` before their name in the Pkg REPL prompt
+## Keywords
+- This is the list of reserved keywords in Julia: `baremodule`, `begin`, `break`, `catch`, `const`, `continue`, `do`, `else`, `elseif`, `end`, `export`, `false`, `finally`, `for`, `function`, `global`, `if`, `import`, `let`, `local`, `macro`, `module`, `quote`, `return`, `struct`, `true`, `try`, `using`, `while`.
+- The following two-word sequences are reserved: `abstract type`, `mutable struct`, `primitive type`. However, you can create variables with names: `abstract`, `mutable`, `primitive` and `type`.
