@@ -62,4 +62,4 @@
 ## Environments a.k.a Pkg.jl
 - Pkg (or package mode) provides environments for using different packages/versions for each project
 - Environments are stackable, e.g. Project specific and development environment
-- If different packages use same versions of a package, it is downloaded only once on 
+- If different packages use same versions of a package, it is downloaded only once on the hard drive and hence adding lot of packages in the default (Main) environment is not required
