@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "dev_setup"
             }
+          },
+          {
+            "id": "2c69819fdde2fb2d",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.7"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -194,7 +207,7 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "1d1cd8d71e42c46c",
+  "active": "2c69819fdde2fb2d",
   "lastOpenFiles": [
     "julia_lang/Study Notes.md",
     "julia_lang/learning.md",
