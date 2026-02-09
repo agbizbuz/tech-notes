@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "julia_lang/packages.md",
+                "file": "julia_lang/dev_setup.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "packages"
+              "title": "dev_setup"
             }
           }
         ]
@@ -196,8 +196,8 @@
   },
   "active": "1d1cd8d71e42c46c",
   "lastOpenFiles": [
-    "julia_lang/learning.md",
     "julia_lang/packages.md",
+    "julia_lang/learning.md",
     "julia_lang/Study Notes.md",
     "julia_lang/dev_setup.md",
     "julia_lang/resources.md",
