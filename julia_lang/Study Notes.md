@@ -1,6 +1,9 @@
 # Study Notes
 ## Data Types
 - Strings have double or triple quotes
+- Only two mathematical operators work on strings
+	- `*` concaenates two strings
+	- ^ multiplies a string number of times following the operator
 - Data Structures
   - Dictionary
   - Tuple => Immutable sequence
