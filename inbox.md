@@ -1,3 +1,21 @@
 # Inbox
 
-- 
+- [A Very Early History of Algebraic Data Types](https://www.hillelwayne.com/post/algdt-history/)
+- [Switching from Pip to uv in Python: A Comprehensive Guide | AppSignal Blog](https://blog.appsignal.com/2025/09/24/switching-from-pip-to-uv-in-python-a-comprehensive-guide.html)  
+- [GitHub - Adembc/lazyssh: A terminal-based SSH manager inspired by lazydocker and k9s - Written in go](https://github.com/Adembc/lazyssh) 
+- [GitHub - erinjense/Learn-Embedded-Systems: Resources to learn embedded systems engineering.](https://github.com/erinjense/Learn-Embedded-Systems) 
+- [For Beginners - Embedded Artistry](https://embeddedartistry.com/beginners/) 
+- [GitHub - RustPython/RustPython: A Python Interpreter written in Rust](https://github.com/RustPython/RustPython) 
+- [GitHub - lima-vm/lima: Linux virtual machines, with a focus on running containers](https://github.com/lima-vm/lima?tab=readme-ov-file) 
+- [GitHub - exo-explore/exo: Run your own AI cluster at home with everyday devices 📱💻 🖥️⌚](https://github.com/exo-explore/exo) 
+- [Fresh - The Terminal Text Editor](https://sinelaw.github.io/fresh/) 
+- [Repo Prompt – Ship Production Code Every Time](https://repoprompt.com/) 
+- [Quickstart | codename goose](https://block.github.io/goose/docs/quickstart/) 
+- [randy3k/radian: A 21 century R console](https://github.com/randy3k/radian) 
+- [Welcome :)](https://www.bigbookofr.com/index.html) 
+- [Welcome | Advanced R](https://adv-r.hadley.nz/) 
+- [GitHub - ItzCrazyKns/Perplexica: Perplexica is an AI-powered answering engine.](https://github.com/ItzCrazyKns/Perplexica) 
+- [Algebraic Data Types: Things I wish someone had explained about functional programming](https://jrsinclair.com/articles/2019/algebraic-data-types-what-i-wish-someone-had-explained-about-functional-programming/) 
+- [IWE - Add depth to your notes](https://iwe.md/) 
+- [Learn Embedded Systems Firmware Basics – A Handbook for Developers](https://www.freecodecamp.org/news/learn-embedded-systems-firmware-basics-handbook-for-devs/) 
+- [Euporie’s Documentation — euporie documentation](https://euporie.readthedocs.io/en/latest/#)

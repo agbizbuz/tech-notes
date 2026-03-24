@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/uv cheatsheet.md",
+                "file": "Inbox.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "uv cheatsheet"
+              "title": "Inbox"
             }
           }
         ]
@@ -182,26 +182,27 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "mermaid-tools:Open Mermaid Toolbar": false,
-      "obsidian-git:Open Git source control": false,
-      "omnisearch:Omnisearch": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false,
+      "omnisearch:Omnisearch": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
   "active": "1d1cd8d71e42c46c",
   "lastOpenFiles": [
-    "julia_lang/dev_setup.md",
+    "julia_lang/learning.md",
     "Python/uv cheatsheet.md",
-    "julia_lang/packages.md",
+    "julia_lang/dev_setup.md",
+    "Clippings",
     "julia_lang/Study Notes.md",
     "julia_lang/resources.md",
-    "julia_lang/learning.md",
+    "julia_lang/packages.md",
     "julia_lang/README.md",
     "julia_lang/thingstolearn.md",
     "todo.md",
@@ -209,7 +210,7 @@
     "Tools/VS Code.md",
     "Tools",
     "dev_setup.md",
-    "inbox.md",
+    "Inbox.md",
     "learn_coding.md",
     "tips_trics_ref.md",
     "Untitled.base"
