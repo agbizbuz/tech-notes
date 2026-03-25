@@ -13,24 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox.md",
+                "file": "Python/uv cheatsheet.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Inbox"
+              "title": "uv cheatsheet"
             }
           },
           {
             "id": "45f6cdb9583ab6af",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.12.4"
+                "file": "julia_lang/learning.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.12.4"
+              "icon": "lucide-file",
+              "title": "learning"
             }
           }
         ],
@@ -195,27 +197,26 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "obsidian-git:Open Git source control": false,
+      "omnisearch:Omnisearch": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false,
-      "omnisearch:Omnisearch": false,
-      "mermaid-tools:Open Mermaid Toolbar": false
+      "bases:Create new base": false
     }
   },
   "active": "45f6cdb9583ab6af",
   "lastOpenFiles": [
-    "julia_lang/learning.md",
-    "Python/uv cheatsheet.md",
-    "julia_lang/dev_setup.md",
-    "Clippings",
-    "julia_lang/Study Notes.md",
     "julia_lang/resources.md",
+    "julia_lang/dev_setup.md",
+    "Python/uv cheatsheet.md",
     "julia_lang/packages.md",
+    "julia_lang/Study Notes.md",
+    "julia_lang/learning.md",
     "julia_lang/README.md",
     "julia_lang/thingstolearn.md",
     "todo.md",
@@ -223,7 +224,7 @@
     "Tools/VS Code.md",
     "Tools",
     "dev_setup.md",
-    "Inbox.md",
+    "inbox.md",
     "learn_coding.md",
     "tips_trics_ref.md",
     "Untitled.base"
