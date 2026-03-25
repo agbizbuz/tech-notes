@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Inbox"
             }
+          },
+          {
+            "id": "45f6cdb9583ab6af",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.12.4"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -194,7 +207,7 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "1d1cd8d71e42c46c",
+  "active": "45f6cdb9583ab6af",
   "lastOpenFiles": [
     "julia_lang/learning.md",
     "Python/uv cheatsheet.md",
