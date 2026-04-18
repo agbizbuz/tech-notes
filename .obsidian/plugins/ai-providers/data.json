@@ -9,8 +9,9 @@
       "apiKey": "",
       "url": "http://localhost:11434",
       "type": "ollama",
-      "model": "",
+      "model": "gemma4:26b",
       "availableModels": [
+        "gemma4:26b",
         "qwen3-coder:30b",
         "devstral-small-2:latest",
         "qwen2.5-coder:14b"
