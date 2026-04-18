@@ -1,0 +1,20 @@
+{
+  "_version": 1,
+  "debugLogging": false,
+  "useNativeFetch": false,
+  "providers": [
+    {
+      "id": "id-1776459224236",
+      "name": "Ollama",
+      "apiKey": "",
+      "url": "http://localhost:11434",
+      "type": "ollama",
+      "model": "",
+      "availableModels": [
+        "qwen3-coder:30b",
+        "devstral-small-2:latest",
+        "qwen2.5-coder:14b"
+      ]
+    }
+  ]
+}

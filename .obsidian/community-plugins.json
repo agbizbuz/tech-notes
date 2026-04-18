@@ -8,5 +8,7 @@
   "obsidian-tasks-plugin",
   "dataview",
   "mermaid-tools",
-  "obsidian-relative-line-numbers"
+  "obsidian-relative-line-numbers",
+  "ai-providers",
+  "local-gpt"
 ]
