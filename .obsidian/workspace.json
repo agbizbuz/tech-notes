@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Local Agentic AI for coding setup.md",
+                "file": "Clippings/How LLM Inference Works.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Local Agentic AI for coding setup"
+              "title": "How LLM Inference Works"
             }
           }
         ],
@@ -228,6 +228,7 @@
   "active": "db44ec4be602fba7",
   "lastOpenFiles": [
     "Local Agentic AI for coding setup.md",
+    "Clippings/How LLM Inference Works.md",
     "dev_setup.md",
     "julia_lang/learning.md",
     "julia_lang/resources.md",
