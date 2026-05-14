@@ -49,8 +49,7 @@
               "title": "How LLM Inference Works"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -225,10 +224,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "db44ec4be602fba7",
+  "active": "1d1cd8d71e42c46c",
   "lastOpenFiles": [
-    "dev_setup.md",
     "Clippings/How LLM Inference Works.md",
+    "dev_setup.md",
     "Local Agentic AI for coding setup.md",
     "julia_lang/learning.md",
     "julia_lang/resources.md",
