@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "todo.md",
+                "file": "Tips & Tricks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "todo"
+              "title": "Tips & Tricks"
             }
           },
           {
@@ -240,8 +240,8 @@
   },
   "active": "de076554fe436490",
   "lastOpenFiles": [
-    "tips_trics_ref.md",
-    "todo.md",
+    "TODOs.md",
+    "Tips & Tricks.md",
     "AI_Coding/Local Agentic AI for coding setup.md",
     "learn_coding.md",
     "Inbox.md",

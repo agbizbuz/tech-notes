@@ -1,4 +1,4 @@
-# Tips N Tricks, Quick References
+# Tips & Tricks, Quick References
 
 ## ZSH
 ```sh
@@ -11,6 +11,7 @@ path=('/home/david/pear/bin' $path)
 export PATH
 ```
 ## Quick reference
-Hidden Files
-AstroNvim - <leader>fF
-television (files, dirs) - Ctrl + s
+### Hidden Files
+- AstroNvim - <leader>fF
+- Television (files, dirs) - Ctrl + s
+- Mac Finder - Cmd + Shift + .
