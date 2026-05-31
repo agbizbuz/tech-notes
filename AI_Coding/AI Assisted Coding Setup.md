@@ -1,5 +1,5 @@
 ## Models
-Recommendations by Gemini
+Recommendations by Gemini as of May 2026
 
 |**Model**|**Parameter Size**|**Recommended Quant**|**RAM Usage**|**Best For**|
 |---|---|---|---|---|

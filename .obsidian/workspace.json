@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI Assisted Coding Setup.md",
+                "file": "tips_trics_ref.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AI Assisted Coding Setup"
+              "title": "tips_trics_ref"
             }
           },
           {
@@ -240,15 +240,18 @@
   },
   "active": "de076554fe436490",
   "lastOpenFiles": [
+    "todo.md",
+    "AI_Coding/Local Agentic AI for coding setup.md",
+    "learn_coding.md",
+    "Inbox.md",
+    "AI_Coding/AI Assisted Coding Setup.md",
+    "dev_setup.md",
     "Python/uv cheatsheet.md",
-    "AI Assisted Coding Setup.md",
     "AI_Coding",
     "Rust_lang",
     "Julia_lang/notes.md",
     "Rust_lang/Learn Rust through Projects.md",
     "Clippings/How LLM Inference Works.md",
-    "dev_setup.md",
-    "Local Agentic AI for coding setup.md",
     "Julia_lang/learning.md",
     "Julia_lang/resources.md",
     "Julia_lang/dev_setup.md",
@@ -256,12 +259,10 @@
     "Julia_lang/Study Notes.md",
     "Julia_lang/README.md",
     "Julia_lang/thingstolearn.md",
-    "todo.md",
     "Tasks.md",
     "Tools/VS Code.md",
     "Tools",
     "inbox.md",
-    "learn_coding.md",
     "tips_trics_ref.md",
     "Untitled.base"
   ]
