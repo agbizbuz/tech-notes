@@ -83,7 +83,11 @@
 }
 .local-gpt-content > span:last-child {
   display: inline;
-  background-image: linear-gradient(to right, var(--text-faint) 0%, var(--interactive-accent) 100%);
+  background-image:
+    linear-gradient(
+      to right,
+      var(--text-faint) 0%,
+      var(--interactive-accent) 100%);
   background-clip: text;
   -webkit-text-fill-color: transparent;
   box-decoration-break: slice;
@@ -110,7 +114,12 @@
   display: inline-block;
   color: var(--text-faint);
   font-style: normal;
-  background-image: linear-gradient(to right, var(--text-faint) 25%, var(--text-muted) 50%, var(--text-faint) 75%);
+  background-image:
+    linear-gradient(
+      to right,
+      var(--text-faint) 25%,
+      var(--text-muted) 50%,
+      var(--text-faint) 75%);
   background-size: 200% 100%;
   background-position: 140% 0;
   background-clip: text;
@@ -269,10 +278,20 @@
   height: 0;
 }
 .local-gpt-think-content.local-gpt-is-overflowing {
-  mask-image: linear-gradient(to bottom, transparent 0%, black 18%, black 100%);
+  mask-image:
+    linear-gradient(
+      to bottom,
+      transparent 0%,
+      black 18%,
+      black 100%);
   mask-repeat: no-repeat;
   mask-size: 100% 100%;
-  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 18%, black 100%);
+  -webkit-mask-image:
+    linear-gradient(
+      to bottom,
+      transparent 0%,
+      black 18%,
+      black 100%);
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-size: 100% 100%;
 }
@@ -282,7 +301,11 @@
 }
 .local-gpt-think-content .local-gpt-stream-chunk {
   display: inline;
-  background-image: linear-gradient(to right, var(--text-faint) 0%, var(--text-muted) 100%);
+  background-image:
+    linear-gradient(
+      to right,
+      var(--text-faint) 0%,
+      var(--text-muted) 100%);
   background-clip: text;
   -webkit-text-fill-color: transparent;
   box-decoration-break: slice;
@@ -319,7 +342,11 @@
   padding: var(--size-4-2) var(--size-4-3);
   border-radius: calc(var(--radius-m) + var(--size-2-1)) calc(var(--radius-m) + var(--size-2-1)) var(--radius-m) var(--radius-m);
   border: 1px solid color-mix(in srgb, var(--background-modifier-border) 88%, transparent);
-  background: linear-gradient(180deg, color-mix(in srgb, var(--background-primary) 96%, var(--background-secondary) 4%) 0%, var(--background-primary) 100%);
+  background:
+    linear-gradient(
+      180deg,
+      color-mix(in srgb, var(--background-primary) 96%, var(--background-secondary) 4%) 0%,
+      var(--background-primary) 100%);
   color: var(--text-normal);
   font: inherit;
   outline: none;
@@ -503,7 +530,12 @@
 }
 .local-gpt-status::before {
   content: attr(data-text);
-  background-image: linear-gradient(to right, var(--status-bar-text-color) 30%, var(--interactive-accent-hover) 50%, var(--status-bar-text-color) 70%);
+  background-image:
+    linear-gradient(
+      to right,
+      var(--status-bar-text-color) 30%,
+      var(--interactive-accent-hover) 50%,
+      var(--status-bar-text-color) 70%);
   background-clip: text;
   -webkit-text-fill-color: transparent;
   box-decoration-break: slice;
@@ -523,7 +555,12 @@
   display: inline-block;
   white-space: nowrap;
   filter: blur(1px);
-  mask-image: linear-gradient(to right, transparent 30%, black 50%, transparent 70%);
+  mask-image:
+    linear-gradient(
+      to right,
+      transparent 30%,
+      black 50%,
+      transparent 70%);
   mask-size: 200% 100%;
   mask-position: -50% 0;
   animation: local-gpt-maskMove 1.7s linear infinite;
@@ -587,7 +624,11 @@
   border: 1px solid color-mix(in srgb, var(--background-modifier-border) 88%, transparent);
   border-top: 0;
   border-radius: 0 0 calc(var(--radius-m) + var(--size-2-1)) calc(var(--radius-m) + var(--size-2-1));
-  background: linear-gradient(180deg, color-mix(in srgb, var(--background-primary) 76%, var(--background-secondary) 24%) 0%, color-mix(in srgb, var(--background-secondary) 88%, transparent) 100%);
+  background:
+    linear-gradient(
+      180deg,
+      color-mix(in srgb, var(--background-primary) 76%, var(--background-secondary) 24%) 0%,
+      color-mix(in srgb, var(--background-secondary) 88%, transparent) 100%);
   box-shadow: 0 16px 30px color-mix(in srgb, var(--background-modifier-box-shadow) 18%, transparent), 0 1px 0 color-mix(in srgb, var(--background-primary) 70%, transparent) inset;
   pointer-events: none;
 }
@@ -762,7 +803,12 @@
 .local-gpt-action-separator-line {
   width: 100%;
   height: 2px;
-  background: linear-gradient(90deg, transparent, var(--background-modifier-border), transparent);
+  background:
+    linear-gradient(
+      90deg,
+      transparent,
+      var(--background-modifier-border),
+      transparent);
   margin: var(--size-2-2) 0;
 }
 .local-gpt-sortable-chosen,
