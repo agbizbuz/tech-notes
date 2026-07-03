@@ -1,6 +1,6 @@
 # Julia Language
 
-- [[resources]]
+- [[Active Resources]]
 - [[thingstolearn]]
 - [[dev_setup]]
 - [[Study Notes]]

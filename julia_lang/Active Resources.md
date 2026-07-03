@@ -1,4 +1,4 @@
-# Resources
+# Active Resources
 
 1. [Julia for Data Science - online book][JLDSC]
 2. [Learning at Julia Org][LRNJLORG]
@@ -8,6 +8,7 @@
 6. [Julia at learnxinyminutes][LRNJLAINYMNTS]
 7. [Julia Hub][JLAHUB]
 8. [Julia in VSCODE][JLAVSC]
+9. [Julia for Optimization & Learning](https://juliateachingctu.github.io/Julia-for-Optimization-and-Learning/stable/)
 
 
 [JLDSC]: https://juliadatascience.io/

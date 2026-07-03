@@ -11,10 +11,14 @@
             "id": "1989028ad1f04222",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "julia_lang/Active Resources.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Active Resources"
             }
           }
         ]
@@ -190,8 +194,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "8cfb1a6c2ecc3f7a",
+  "active": "1989028ad1f04222",
   "lastOpenFiles": [
+    "julia_lang/thingstolearn.md",
     "TODOs.md",
     "Tips & Tricks.md",
     "julia_lang/learning.md",
@@ -205,13 +210,12 @@
     "AI_Coding/Local Agentic AI for coding setup.md",
     "AI_Coding/AI Assisted Coding Setup.md",
     "AI_Coding",
-    "julia_lang/resources.md",
+    "julia_lang/Active Resources.md",
     "julia_lang/dev_setup.md",
     "Python/uv cheatsheet.md",
     "julia_lang/packages.md",
     "julia_lang/Study Notes.md",
     "julia_lang/README.md",
-    "julia_lang/thingstolearn.md",
     "todo.md",
     "Tasks.md",
     "Tools/VS Code.md",
