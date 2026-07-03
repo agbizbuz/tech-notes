@@ -4,67 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "c669ea5a00731565",
+        "id": "5a3f09ce28f31c64",
         "type": "tabs",
         "children": [
           {
-            "id": "1d1cd8d71e42c46c",
+            "id": "1989028ad1f04222",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/uv cheatsheet.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "uv cheatsheet"
-            }
-          },
-          {
-            "id": "de076554fe436490",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tips & Tricks.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Tips & Tricks"
-            }
-          },
-          {
-            "id": "45f6cdb9583ab6af",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dev_setup.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "dev_setup"
-            }
-          },
-          {
-            "id": "db44ec4be602fba7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Clippings/How LLM Inference Works.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "How LLM Inference Works"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -221,8 +174,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -238,32 +190,36 @@
       "bases:Create new base": false
     }
   },
-  "active": "de076554fe436490",
+  "active": "8cfb1a6c2ecc3f7a",
   "lastOpenFiles": [
     "TODOs.md",
     "Tips & Tricks.md",
-    "AI_Coding/Local Agentic AI for coding setup.md",
-    "learn_coding.md",
-    "Inbox.md",
-    "AI_Coding/AI Assisted Coding Setup.md",
-    "dev_setup.md",
-    "Python/uv cheatsheet.md",
-    "AI_Coding",
-    "Rust_lang",
-    "Julia_lang/notes.md",
+    "julia_lang/learning.md",
+    "conflict-files-obsidian-git.md",
+    "julia_lang/notes.md",
+    "Tools/gnu_stow.md",
     "Rust_lang/Learn Rust through Projects.md",
+    "Rust_lang",
     "Clippings/How LLM Inference Works.md",
-    "Julia_lang/learning.md",
-    "Julia_lang/resources.md",
-    "Julia_lang/dev_setup.md",
-    "Julia_lang/packages.md",
-    "Julia_lang/Study Notes.md",
-    "Julia_lang/README.md",
-    "Julia_lang/thingstolearn.md",
+    "Clippings",
+    "AI_Coding/Local Agentic AI for coding setup.md",
+    "AI_Coding/AI Assisted Coding Setup.md",
+    "AI_Coding",
+    "julia_lang/resources.md",
+    "julia_lang/dev_setup.md",
+    "Python/uv cheatsheet.md",
+    "julia_lang/packages.md",
+    "julia_lang/Study Notes.md",
+    "julia_lang/README.md",
+    "julia_lang/thingstolearn.md",
+    "todo.md",
     "Tasks.md",
     "Tools/VS Code.md",
     "Tools",
+    "dev_setup.md",
     "inbox.md",
+    "learn_coding.md",
+    "tips_trics_ref.md",
     "Untitled.base"
   ]
 }
