@@ -1,4 +1,4 @@
-Local Agentic Coding Setup: MacBook Pro M 5 Pro (64 GB RAM)
+# Local Agentic Coding Setup: MacBook Pro M 5 Pro (64 GB RAM)
 
 This configuration optimizes a **32 B parameter model** for autonomous coding tasks in **Python** and **Rust**, utilizing **Ollama** for the backend, **Aider/OpenCode** for the interface, and **Vibe** for sandboxing.
 
@@ -11,16 +11,16 @@ Install the base requirements for Apple Silicon.
 - **Model Backend:** `brew install ollama`
 - **Coding Agent:** `pip install aider-chat`
 - **Execution Sandbox:**
-    
+
     Bash
-    
+
     ```
     curl -fsSL https://github.com -o vibe.zip
     unzip vibe.zip && mv vibe /usr/local/bin/
     ```
-    
+
     Verwende Code mit Vorsicht.
-    
+
 
 ---
 
@@ -37,7 +37,7 @@ FROM qwen2.5-coder:32b
 PARAMETER temperature 0.2
 PARAMETER num_ctx 32768
 SYSTEM """
-You are an expert Python 3.12+ engineer. 
+You are an expert Python 3.12+ engineer.
 - Typing: Use strict type hints for all signatures.
 - Standards: Follow PEP 8 and ruff linting expectations.
 - Modernity: Prefer pathlib and asyncio for I/O tasks.
@@ -56,7 +56,7 @@ FROM qwen2.5-coder:32b
 PARAMETER temperature 0.1
 PARAMETER num_ctx 32768
 SYSTEM """
-You are a senior Rust systems engineer. 
+You are a senior Rust systems engineer.
 - Safety: Avoid 'unsafe' blocks; justify if used.
 - Idiomatic Code: Use clippy-compliant patterns and '?' operator.
 - Efficiency: Prioritize stack allocation and 'Cow' for strings.
@@ -107,7 +107,7 @@ Bash
 # Enter the sandbox
 vibe
 # Run the agent (connected to local Ollama endpoint)
-opencode 
+opencode
 ```
 
 Verwende Code mit Vorsicht.
@@ -190,10 +190,10 @@ Since you have 64 GB of RAM, you can actually use two different models for thisâ
 1. Describe the Task: `architect> Refactor the user authentication to use JWT instead of sessions.`
 2. Review the Plan: The model will list the files it needs to change and the logic it will use.
 3. Refine or Approve:
-    
+
     - _To refine: _ "Actually, use the `PyJWT` library specifically."
     - _To approve: _ Just type `ok` or `go ahead`.
-    
+
 4. Auto-Commit: Aider will apply the changes and, by default, create a git commit once the "Editor" phase finishes. [4, 8, 15, 16, 17]
 
 ## 4. Updated Alias for Architect Mode
@@ -259,15 +259,15 @@ Monitoring memory on your MacBook Pro M 5 Pro is essential for ensuring your 32 
 The best way to see how much RAM the LLMs are "wiring" (dedicating to the GPU) is through specialized Apple Silicon monitoring tools.
 
 - ASITOP: An `nvtop` -inspired terminal UI specifically for Apple Silicon. It shows CPU/GPU utilization, power consumption, and total memory usage in a sleek, color-coded dashboard.
-    
+
     - Install: `brew install asitop`
     - Run: `sudo asitop` (requires root to read power metrics).
-    
+
 - Macmon: A lightweight alternative that provides similar GPU and memory metrics but often runs without requiring `sudo`.
-    
+
     - Install: `brew install macmon`
     - Run: `macmon` [1, 2, 3, 4, 5, 6]
-    
+
 
 ## 2. Ollama-Specific Monitoring
 
@@ -313,13 +313,13 @@ agent-dash() {
     # Start a new tmux session named 'agent' and run asitop in the first pane
     # (Note: asitop usually needs sudo, so it will prompt for your password)
     tmux new-session -d -s agent 'sudo asitop'
-    
+
     # Split the window vertically
     tmux split-window -h -p 65
-    
+
     # Send the agent command to the new right pane (65% width)
     tmux send-keys 'pyagent' C-m
-    
+
     # Attach to the session
     tmux attach-session -t agent
 }
@@ -347,7 +347,7 @@ alias dashboard='agent-dash'
 Pro-Tip: Since `asitop` requires `sudo`, you can configure your Mac to let you run it without a password by editing your sudoers file, but most users find it safer to just type the password once upon launch.
 
 Would you like to see how to auto-load your specific Python/Rust project context into these aliases so they open exactly where you left off?
-  
+
 
 [1] [https://medium.com](https://medium.com/@MetricFire/monitor-macos-apple-silicon-gpu-with-macmon-hosted-graphite-metricfire-b9f39fadb2e6)
 
@@ -373,7 +373,7 @@ Would you like to see how to auto-load your specific Python/Rust project context
 
 [12] [https://medium.com](https://medium.com/@se.mehmet.baykar/increase-vram-on-apple-silicon-for-local-llms-1b35c453b165)
 
-  
+
 
 [1] [https://aider.chat](https://aider.chat/2024/09/26/architect.html)
 
@@ -393,7 +393,7 @@ Would you like to see how to auto-load your specific Python/Rust project context
 
 [9] [https://dev.to](https://dev.to/bspann/running-llms-locally-on-macos-the-complete-2026-comparison-48fc)
 
-  
+
 
 [1] [https://aider.chat](https://aider.chat/2024/09/26/architect.html)
 
